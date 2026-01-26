@@ -29,7 +29,7 @@ All VMs run **Ubuntu 20.04** and communicate using **host-only networking** for 
 
 ## 📁 Repository Structure
 
-
+```text
 .
 ├── amfcfg.yaml          # AMF configuration
 ├── ausfcfg.yaml         # AUSF configuration
