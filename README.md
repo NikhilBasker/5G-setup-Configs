@@ -21,7 +21,8 @@ The simulation uses **three virtual machines**:
 |----|------|------------|
 | VM1 | free5GC Control Plane | AMF, SMF, AUSF, NRF, NSSF |
 | VM2 | free5GC User Plane | UPF and data network |
-| VM3 | UERANSIM | gNB and multiple UEs |
+| VM3 | UERANSIM | gNB |
+| VM4-6 | UERANSIM | UEs |
 
 All VMs run **Ubuntu 20.04** and communicate using **host-only networking** for N2/N3 interfaces, with **NAT** used for external internet access.
 
